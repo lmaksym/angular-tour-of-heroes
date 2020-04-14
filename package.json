@@ -1,0 +1,52 @@
+{
+  "name": "angular-tour-of-heroes",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Example project from an angular.io guide. Adding CLI and Spring backend.",
+  "scripts": {
+    "lint": "tslint ./src/**/*.ts -t verbose",
+    "start": "ng serve",
+    "build": "ng build",
+    "buildprod": "ng build --prod",
+    "test": "ng test",
+    "ng": "ng"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@angular/animations": "~9.0.7",
+    "@angular/common": "~9.0.7",
+    "@angular/compiler": "~9.0.7",
+    "@angular/core": "~9.0.7",
+    "@angular/forms": "~9.0.7",
+    "@angular/platform-browser": "~9.0.7",
+    "@angular/platform-browser-dynamic": "~9.0.7",
+    "@angular/router": "~9.0.7",
+    "rxjs": "~6.5.4",
+    "tslib": "^1.10.0",
+    "zone.js": "~0.10.2",
+    "angular-in-memory-web-api": "0.10.0",
+    "core-js": "^3.6.5"
+  },
+  "devDependencies": {
+    "@angular-builders/jest": "^9.0.0",
+    "@angular-devkit/build-angular": "~0.900.7",
+    "@angular-devkit/build-ng-packagr": "~0.900.7",
+    "@angular/cli": "~9.0.7",
+    "@angular/compiler-cli": "~9.0.7",
+    "@angular/language-service": "~9.0.7",
+    "@types/jest": "^25.1.4",
+    "@types/node": "^12.11.1",
+    "codelyzer": "^5.1.2",
+    "jest": "^25.1.0",
+    "jest-junit": "^10.0.0",
+    "jest-preset-angular": "^8.1.2",
+    "ng-packagr": "^9.0.0",
+    "ts-node": "~8.3.0",
+    "tslint": "~5.18.0",
+    "typescript": "~3.7.5",
+    "lodash": "^4.16.2"
+  },
+  "repository": {}
+}
