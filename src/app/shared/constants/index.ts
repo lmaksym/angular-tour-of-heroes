@@ -1,2 +1,2 @@
 export * from './heroes';
-export * from './base-url';
+export * from './api-urls';
