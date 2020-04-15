@@ -16,7 +16,10 @@ import { AppComponent } from './app.component';
     AppRoutingModule,
     HttpClientModule,
     HttpClientInMemoryWebApiModule.forRoot(
-      InMemoryDataService, { dataEncapsulation: false }
+      InMemoryDataService, {
+        dataEncapsulation: false,
+        passThruUnknownUrl: true
+      }
     )
   ],
   declarations: [
